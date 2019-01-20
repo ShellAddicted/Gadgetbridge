@@ -24,6 +24,7 @@ import android.content.Context;
 import android.support.annotation.NonNull;
 import android.widget.Toast;
 
+import nodomain.freeyourgadget.gadgetbridge.devices.hx03w.Hx03wDeviceCoordinator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -218,6 +219,7 @@ public class DeviceHelper {
         result.add(new Roidmi1Coordinator());
         result.add(new Roidmi3Coordinator());
         result.add(new CasioGB6900DeviceCoordinator());
+        result.add(new Hx03wDeviceCoordinator());
 
         return result;
     }
