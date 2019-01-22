@@ -326,6 +326,8 @@ public class Hx03wDeviceSupport extends AbstractBTLEDeviceSupport {
             appID = Hx03wConstants.HX03W_APP_WHATSAPP;
         } else if (notificationSpec.type == NotificationType.INSTAGRAM) {
             appID = Hx03wConstants.HX03W_APP_INSTAGRAM;
+        } else if (notificationSpec.type == NotificationType.SNAPCHAT) {
+            appID = Hx03wConstants.HX03W_APP_SNAPCHAT;
         } else if (notificationSpec.type == NotificationType.GENERIC_EMAIL) {
             appID = Hx03wConstants.HX03W_APP_EMAIL;
         } else if (notificationSpec.type == NotificationType.LINE) {

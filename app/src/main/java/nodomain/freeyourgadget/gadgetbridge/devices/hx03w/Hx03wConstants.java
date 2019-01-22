@@ -19,7 +19,7 @@ public final class Hx03wConstants {
 
     public static final int HX03W_APP_CALL = 0;
     public static final int HX03W_APP_SMS = 1;
-    //public static final UUID HX03W_APP_IDK = 2;
+    public static final int HX03W_APP_SNAPCHAT = 2;
     public static final int HX03W_APP_WECHAT = 3;
     public static final int HX03W_APP_FACEBOOK = 4;
     public static final int HX03W_APP_TWITTER = 5;
